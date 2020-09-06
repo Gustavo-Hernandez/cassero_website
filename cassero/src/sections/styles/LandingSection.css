@@ -1,0 +1,24 @@
+.landingSection-mainContainer{
+    width: 100%;
+    height: 40vh;
+}
+
+.landingSection-carousel{
+    width: 100%;
+    height: 100%;
+}
+
+.landingSection-carouselItem{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

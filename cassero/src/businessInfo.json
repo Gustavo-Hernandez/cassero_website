@@ -1,0 +1,10 @@
+{
+    "name": "CÄSSERO",
+    "products":[
+        {"name":"Product One", "price": 123.50, "image": "someUrl"},
+        {"name":"Product Two", "price": 123.50, "image": "someUrl"},
+        {"name":"Product Three", "price": 123.50, "image": "someUrl"},
+        {"name":"Product Four", "price": 123.50, "image": "someUrl"}        
+    ]
+
+}

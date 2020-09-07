@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import "./styles.css/Navbar.css"
+import "./styles/Navbar.css"
 import business from "../businessInfo.json";
 
 

@@ -5,6 +5,20 @@
         {"name":"Product Two", "price": 123.50, "image": "someUrl"},
         {"name":"Product Three", "price": 123.50, "image": "someUrl"},
         {"name":"Product Four", "price": 123.50, "image": "someUrl"}        
-    ]
+    ],
+    "phoneNumber": "722-000-0000",
+    "facebook":{
+        "url":"https://www.facebook.com",
+        "name": "Cässero Reposteria"
+    },
+    "instagram":{
+        "url":"https://www.instagram.com",
+        "name":"CÄSSERO"
+    },
+    "whatsapp":{
+        "url": "whatsapp url",
+        "name": "WhatsApp"
+    }
+
 
 }

@@ -22,3 +22,24 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (min-width: 768px){
+    .landingSection-mainContainer{
+        height: 60vh;
+    }
+    
+}
+
+@media screen and (min-width: 769px){
+    .landingSection-mainContainer{
+        height: 70vh;
+    }
+    
+}
+
+@media screen and (min-width: 1025px){
+    .landingSection-mainContainer{
+        height: 90vh;
+    }
+    
+}

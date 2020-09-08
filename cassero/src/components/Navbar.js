@@ -2,28 +2,27 @@ import React from "react";
 import {
   Navbar as NavStrap,
   Nav,
-  NavbarBrand,
   NavItem,
   NavLink,
 } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./styles/Navbar.css"
-import business from "../businessInfo.json";
-
+import businessLogo from "../images/casseroLogo.jpg";
+import { facebook, instagram } from "../businessInfo.json";
 
 const Navbar = () => {
   return (
-    <NavStrap className="shadow-sm rounded" light> 
-      <NavbarBrand className="mx-auto">{business.name}</NavbarBrand>
-      <Nav className="Navbar-icons">
+    <NavStrap className="p-4 navbar-main" light> 
+      <img className="rounded-circle navbar-logo" src={businessLogo} alt="businessLogo" width="100vw"/>
+      <Nav className="navbar-icons">
         <NavItem>
-          <NavLink href="/#">
+          <NavLink href={facebook.url}>
             <FontAwesomeIcon icon={faFacebook} size="lg"/>
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
+          <NavLink href={instagram.url}>
             <FontAwesomeIcon icon={faInstagram} size="lg" color="#DD2A7B" />
           </NavLink>
         </NavItem>

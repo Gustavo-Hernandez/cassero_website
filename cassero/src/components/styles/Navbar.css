@@ -1,4 +1,23 @@
-.Navbar-icons{
+.navbar-main{
+    -webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.62);
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.62);
+    z-index: 1;
+}
+
+.navbar-icons{
     position: absolute;
     right: 0;
+}
+
+.navbar-logo{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 2;
+    transform: translate(-50%, 0);
+    border: 5px solid white;
+    -webkit-box-shadow: 0px 16px 21px -18px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 16px 21px -18px rgba(0,0,0,0.62);
+    box-shadow: 0px 16px 21px -18px rgba(0,0,0,0.62);
 }

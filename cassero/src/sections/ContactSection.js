@@ -7,7 +7,7 @@ import "./styles/ContactSection.css";
 
 const ContactSection = () => {
   return (
-    <div className="contactSection-mainContainer d-flex justify-content-around mt-3 mb-2 ">
+    <div className="contactSection-mainContainer d-flex justify-content-around mt-4 mb-2 ">
       <h3>CONTACTO</h3>
       <div className="d-flex flex-column align-items-start">
         <div className="row">

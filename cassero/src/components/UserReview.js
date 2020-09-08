@@ -15,7 +15,7 @@ const UserReview = () => {
             <h5 className="card-title mt-2">Cliente</h5>
           </div>
           <div className="message ml-2 d-flex align-items-center">
-            <h4 class="card-subtitle p-4 text-muted">"¡Sin duda alguna han sido los mejores alfajores que he probado!"</h4>
+            <h5 className="card-subtitle text-muted">"¡Sin duda alguna han sido los mejores alfajores que he probado!"</h5>
           </div>
         </div>
       </div>
